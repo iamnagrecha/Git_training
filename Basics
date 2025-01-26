@@ -1,0 +1,7 @@
+#Git merge 
+
+git merge abhi-one
+
+#change to another branch
+
+Git checkout master
