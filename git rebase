@@ -1,0 +1,50 @@
+git log --oneline
+git checkout feature-one
+
+$ git log --oneline
+dbf5f7c (HEAD -> master) added new head with H2
+4ddc845 retained the master changes while doing a merge
+7c498cf (abhi-one) added one line
+720e81a Added one line
+fe85314 (abhi-three) deleted index1.html
+060604d Merge branch 'abhi-one'
+8dfa3f6 created empty style block
+21e9278 update my Heading
+a289493 change in abhi-one
+2c5f646 make it unique
+6c98bd2 added body
+45f55aa (origin8/master, origin/master) Update index1.html
+0242ac1 Update index1.html
+58bc313 added header
+938b66c unmerge
+396a07e added a git ignore file
+7f33ae3 deleted index1.html
+28e1591 (abhi-two) added head and body
+990c4e1 basic
+86fb23c adding html
+
+$ git rebase master
+Successfully rebased and updated refs/heads/abhi-one.
+
+anagrecha@Everfall MINGW64 /myprojectdir (abhi-one)
+$ git log --oneline
+dbf5f7c (HEAD -> abhi-one, master) added new head with H2
+4ddc845 retained the master changes while doing a merge
+7c498cf added one line
+720e81a Added one line
+fe85314 (abhi-three) deleted index1.html
+060604d Merge branch 'abhi-one'
+8dfa3f6 created empty style block
+21e9278 update my Heading
+a289493 change in abhi-one
+2c5f646 make it unique
+6c98bd2 added body
+45f55aa (origin8/master, origin/master) Update index1.html
+0242ac1 Update index1.html
+58bc313 added header
+938b66c unmerge
+396a07e added a git ignore file
+7f33ae3 deleted index1.html
+28e1591 (abhi-two) added head and body
+990c4e1 basic
+86fb23c adding html
