@@ -1,2 +1,11 @@
 #Cloning means creating a copy of a repo and linking it with original one.
 
+$ git clone https://github.com/iamnagrecha/Git_training
+Cloning into 'Git_training'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (23/23), done.
+remote: Total 29 (delta 2), reused 8 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (29/29), 7.59 KiB | 1.26 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+
